@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
-        // MARK: - PROPERTY
+    // MARK: - PROPERTY
     
     @State private var isAnimating: Bool = false
     @State private var imageScale: CGFloat = 1
     @State private var imageOffset: CGSize = .zero
     
-        // MARK: - FUNCTION
+    // MARK: - FUNCTION
     
     func resetImageState() {
         return withAnimation(.spring()) {
@@ -23,12 +23,14 @@ struct ContentView: View {
         }
     }
     
-        // MARK: - CONTENT
+    // MARK: - CONTENT
     
     
     var body: some View {
         NavigationView {
             ZStack {
+                Color.clear
+                
                 //MARK: - PAGE IMAGE
                 Image("magazine-front-cover")
                     .resizable()
@@ -39,6 +41,7 @@ struct ContentView: View {
                     .opacity(isAnimating ? 1 : 0)
                     .offset(x: imageOffset.width, y: imageOffset.height)
                     .scaleEffect(imageScale)
+                
                 // MARK: - 1. TAP GESTURE
                     .onTapGesture(count: 2, perform: {
                         if imageScale == 1 {
@@ -72,6 +75,13 @@ struct ContentView: View {
                     isAnimating = true
                 }
             })
+            // MARK: - INFO PANEL
+            .overlay(
+                InfoPanelView(scale: imageScale, offset: imageOffset)
+                    .padding(.horizontal)
+                    .padding(.top, 30)
+                , alignment: .top
+            )
         } //: NAVIGATION
         .navigationViewStyle(.stack)
     }
