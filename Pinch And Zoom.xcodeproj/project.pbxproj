@@ -17,6 +17,9 @@
 		10C8DE9029D9FE1300067901 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8DE8F29D9FE1300067901 /* InfoPanelView.swift */; };
 		10C8DE9129D9FE1300067901 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8DE8F29D9FE1300067901 /* InfoPanelView.swift */; };
 		10C8DE9229D9FE1300067901 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8DE8F29D9FE1300067901 /* InfoPanelView.swift */; };
+		10F944E829DB3F0100FDC77E /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F944E729DB3F0100FDC77E /* ControlImageView.swift */; };
+		10F944E929DB3F0100FDC77E /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F944E729DB3F0100FDC77E /* ControlImageView.swift */; };
+		10F944EA29DB3F0100FDC77E /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F944E729DB3F0100FDC77E /* ControlImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,7 @@
 		10C803F029D8960D0033B395 /* Pinch_And_ZoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pinch_And_ZoomUITests.swift; sourceTree = "<group>"; };
 		10C803F229D8960D0033B395 /* Pinch_And_ZoomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pinch_And_ZoomUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		10C8DE8F29D9FE1300067901 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
+		10F944E729DB3F0100FDC77E /* ControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				10C8DE8F29D9FE1300067901 /* InfoPanelView.swift */,
+				10F944E729DB3F0100FDC77E /* ControlImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -294,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10F944E829DB3F0100FDC77E /* ControlImageView.swift in Sources */,
 				10C803D829D8960C0033B395 /* ContentView.swift in Sources */,
 				10C803D629D8960C0033B395 /* Pinch_And_ZoomApp.swift in Sources */,
 				10C8DE9029D9FE1300067901 /* InfoPanelView.swift in Sources */,
@@ -306,6 +312,7 @@
 			files = (
 				10C803E729D8960D0033B395 /* Pinch_And_ZoomTests.swift in Sources */,
 				10C8DE9129D9FE1300067901 /* InfoPanelView.swift in Sources */,
+				10F944E929DB3F0100FDC77E /* ControlImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10F944EA29DB3F0100FDC77E /* ControlImageView.swift in Sources */,
 				10C803F329D8960D0033B395 /* Pinch_And_ZoomUITestsLaunchTests.swift in Sources */,
 				10C803F129D8960D0033B395 /* Pinch_And_ZoomUITests.swift in Sources */,
 				10C8DE9229D9FE1300067901 /* InfoPanelView.swift in Sources */,
