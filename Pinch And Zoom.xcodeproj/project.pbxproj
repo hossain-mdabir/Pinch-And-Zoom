@@ -17,6 +17,12 @@
 		10C8DE9029D9FE1300067901 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8DE8F29D9FE1300067901 /* InfoPanelView.swift */; };
 		10C8DE9129D9FE1300067901 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8DE8F29D9FE1300067901 /* InfoPanelView.swift */; };
 		10C8DE9229D9FE1300067901 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8DE8F29D9FE1300067901 /* InfoPanelView.swift */; };
+		10ED0CF129DDB0EB00DEDADB /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED0CF029DDB0EB00DEDADB /* PageModel.swift */; };
+		10ED0CF229DDB0EB00DEDADB /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED0CF029DDB0EB00DEDADB /* PageModel.swift */; };
+		10ED0CF329DDB0EB00DEDADB /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED0CF029DDB0EB00DEDADB /* PageModel.swift */; };
+		10ED0CF529DDB1B900DEDADB /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED0CF429DDB1B900DEDADB /* PageData.swift */; };
+		10ED0CF629DDB1B900DEDADB /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED0CF429DDB1B900DEDADB /* PageData.swift */; };
+		10ED0CF729DDB1B900DEDADB /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ED0CF429DDB1B900DEDADB /* PageData.swift */; };
 		10F944E829DB3F0100FDC77E /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F944E729DB3F0100FDC77E /* ControlImageView.swift */; };
 		10F944E929DB3F0100FDC77E /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F944E729DB3F0100FDC77E /* ControlImageView.swift */; };
 		10F944EA29DB3F0100FDC77E /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F944E729DB3F0100FDC77E /* ControlImageView.swift */; };
@@ -51,6 +57,8 @@
 		10C803F029D8960D0033B395 /* Pinch_And_ZoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pinch_And_ZoomUITests.swift; sourceTree = "<group>"; };
 		10C803F229D8960D0033B395 /* Pinch_And_ZoomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pinch_And_ZoomUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		10C8DE8F29D9FE1300067901 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
+		10ED0CF029DDB0EB00DEDADB /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		10ED0CF429DDB1B900DEDADB /* PageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageData.swift; sourceTree = "<group>"; };
 		10F944E729DB3F0100FDC77E /* ControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -158,6 +166,7 @@
 		10C8040129D89C5A0033B395 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				10ED0CF029DDB0EB00DEDADB /* PageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,6 +174,7 @@
 		10C8040229D89C7F0033B395 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				10ED0CF429DDB1B900DEDADB /* PageData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -300,8 +310,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				10F944E829DB3F0100FDC77E /* ControlImageView.swift in Sources */,
+				10ED0CF129DDB0EB00DEDADB /* PageModel.swift in Sources */,
 				10C803D829D8960C0033B395 /* ContentView.swift in Sources */,
 				10C803D629D8960C0033B395 /* Pinch_And_ZoomApp.swift in Sources */,
+				10ED0CF529DDB1B900DEDADB /* PageData.swift in Sources */,
 				10C8DE9029D9FE1300067901 /* InfoPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,7 +322,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10ED0CF229DDB0EB00DEDADB /* PageModel.swift in Sources */,
 				10C803E729D8960D0033B395 /* Pinch_And_ZoomTests.swift in Sources */,
+				10ED0CF629DDB1B900DEDADB /* PageData.swift in Sources */,
 				10C8DE9129D9FE1300067901 /* InfoPanelView.swift in Sources */,
 				10F944E929DB3F0100FDC77E /* ControlImageView.swift in Sources */,
 			);
@@ -321,8 +335,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				10F944EA29DB3F0100FDC77E /* ControlImageView.swift in Sources */,
+				10ED0CF329DDB0EB00DEDADB /* PageModel.swift in Sources */,
 				10C803F329D8960D0033B395 /* Pinch_And_ZoomUITestsLaunchTests.swift in Sources */,
 				10C803F129D8960D0033B395 /* Pinch_And_ZoomUITests.swift in Sources */,
+				10ED0CF729DDB1B900DEDADB /* PageData.swift in Sources */,
 				10C8DE9229D9FE1300067901 /* InfoPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
